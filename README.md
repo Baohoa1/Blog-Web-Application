@@ -14,13 +14,13 @@ This is a simple version of a Blog web application. Users can create posts with 
 ### Website Features
 First, this is the Homepage.
 
-On the navigation bar, the "Create Post" is where the user creates their blog.
+The "Create Post" is where the user creates their blog on the navigation bar.
 
-After finishing their blog, they could view their blog, edit, or even delete the post.
+After finishing their blog, they could view it, edit, or even delete the post.
 
 ### Installation
 
-`git clone https://github.com/Baohoa1/Blog-Web-Application.git`
-`cd Blog-Web-Application`
-`npm install`
+`git clone https://github.com/Baohoa1/Blog-Web-Application.git` <br/>
+`cd Blog-Web-Application` <br/>
+`npm install` <br/>
 
