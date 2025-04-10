@@ -20,7 +20,10 @@ After finishing their blog, they could view it, edit, or even delete the post.
 
 ### Installation
 
+To run this project locally, please download Node.js dependencies as well as the Express.js package, then follow below to install.
 `git clone https://github.com/Baohoa1/Blog-Web-Application.git` <br/>
 `cd Blog-Web-Application` <br/>
-`npm install` <br/>
+`npm i` <br/>
+`npm install -g nodemon` <br/>
 
+After installation, run `nodemon index.js` to start.
