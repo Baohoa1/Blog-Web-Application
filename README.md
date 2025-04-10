@@ -26,4 +26,4 @@ To run this project locally, please download Node.js dependencies as well as the
 `npm i` <br/>
 `npm install -g nodemon` <br/>
 
-After installation, run `nodemon index.js` to start.
+After installation, run `nodemon index.js` on the index.js file command prompt to start.
