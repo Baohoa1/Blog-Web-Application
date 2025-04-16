@@ -14,9 +14,19 @@ This is a simple version of a Blog web application. Users can create posts with 
 ### Website Features
 First, this is the Homepage.
 
+![Screenshot 2025-04-16 204839](https://github.com/user-attachments/assets/06920075-8b45-4be0-8070-f56df0ce830a)
+
 The "Create Post" is where the user creates their blog on the navigation bar.
+![Screenshot 2025-04-16 205006](https://github.com/user-attachments/assets/6f274000-384c-4dc6-9a7e-36980fa446a6)
 
 After finishing their blog, they could view it, edit, or even delete the post.
+![Screenshot 2025-04-16 205216](https://github.com/user-attachments/assets/58e0b486-fe53-4404-bb40-dac0df81cf58)
+
+Click "View" to see the post.
+![Screenshot 2025-04-16 205345](https://github.com/user-attachments/assets/354b148f-d9ca-4d02-8583-e8ab193589b7)
+
+Click "Edit" to change the content.
+![Screenshot 2025-04-16 205431](https://github.com/user-attachments/assets/94d468aa-59ef-4677-a419-ecbc5d936edb)
 
 ### Installation
 
