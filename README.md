@@ -1,9 +1,11 @@
 # Blog-Web-Application
 
-A simple Blog Web Application built from Node.js and Express.js, with Bootstrap for layout and some CSS code for styling. This website has essential features like creating, editing, and deleting posts. However, no server built into this website will delete the posts after refreshing the page.
+Node.js と Express.js で作られたシンプルなブログウェブアプリです。スタイリングには Bootstrap と CSS を使用しています。ブログの基本的な機能として、「投稿の作成」や「投稿の閲覧」などを追加しました。
+さらに、投稿を閲覧するときに「編集」と「削除」もできるようになっています。しかし、Express のサーバーで動作するため、サイトをリフレッシュすると作成した投稿は消えてしまいます。
+
 
 ### Description
-This is a simple version of a Blog web application. Users can create posts with their full name, title, and content. After they finish their blog, they can view it, or if they want to fix something, they can edit the post. Last but not least, users can delete their posts. However, there is no authentication security built into this website, and no hard-built-in server, so the posts would disappear after reloading the page.
+This is a simple version of a Blog web application. Users can create posts with their full name, title, and content. After they finish their blog, they can view it, or if they want to fix something, they can edit the post. Last but not least, users can delete their posts. However, there is no authentication security built into this website, and no hard-coded server, so the posts would disappear after reloading the page.
 
 ### Languages
 * <ins>**Node.js**</ins>: A JavaScript runtime environment, used to build the server-side of a website.<br/>
@@ -16,7 +18,7 @@ First, this is the Homepage.
 
 ![Screenshot 2025-04-16 204839](https://github.com/user-attachments/assets/06920075-8b45-4be0-8070-f56df0ce830a)
 
-The "Create Post" is where the user creates their blog on the navigation bar.
+The "Create Post" is where users create their blog on the navigation bar.
 ![Screenshot 2025-04-16 205006](https://github.com/user-attachments/assets/6f274000-384c-4dc6-9a7e-36980fa446a6)
 
 After finishing their blog, they could view it, edit, or even delete the post.
@@ -30,7 +32,7 @@ Click "Edit" to change the content.
 
 ### Installation
 
-To run this project locally, please download Node.js dependencies and the Express.js package, then follow below to install.
+To run this project locally, please download Node.js dependencies and the Express.js package, then follow below to install.<br/>
 `git clone https://github.com/Baohoa1/Blog-Web-Application.git` <br/>
 `cd Blog-Web-Application` <br/>
 `npm install` <br/>
