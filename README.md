@@ -4,8 +4,8 @@ Node.js と Express.js で作られたシンプルなブログウェブアプリ
 さらに、投稿を閲覧するときに「編集」と「削除」もできるようになっています。しかし、Express のサーバーで動作するため、サイトをリフレッシュすると作成した投稿は消えてしまいます。
 
 
-### Description
-This is a simple version of a Blog web application. Users can create posts with their full name, title, and content. After they finish their blog, they can view it, or if they want to fix something, they can edit the post. Last but not least, users can delete their posts. However, there is no authentication security built into this website, and no hard-coded server, so the posts would disappear after reloading the page.
+### 説明
+このブログサイトでは、ユーザーが氏名、投稿タイトル、投稿内容を入力した後、投稿の閲覧・編集・削除が可能です。ただし、認証セキュリティーが組み込まれておらず、また、サーバーもハードコードされていないため、サイトが更新されると投稿が消えてしまいます。
 
 ### Languages
 * <ins>**Node.js**</ins>: A JavaScript runtime environment, used to build the server-side of a website.<br/>
