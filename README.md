@@ -38,4 +38,4 @@ Node.js と Express.js で作られたシンプルなブログウェブアプリ
 `npm install` <br/>
 `npm install -g nodemon` <br/>
 
-インストール後に, `nodemon index.js` でコマンドプロンプトを起動して、ブラウザの「http://localhost:3000/」でプロジェクトを実行することになっております。
+インストール後に, `nodemon index.js` でコマンドプロンプトを起動して、ブラウザの「localhost:3000/」でプロジェクトを実行することになっております。
