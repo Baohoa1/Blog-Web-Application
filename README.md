@@ -15,8 +15,7 @@ Node.js と Express.js で作られたシンプルなブログウェブアプリ
 
 ### ウェブサイト昨日
 まず、こちらはホームページになっております。
-
-![Screenshot 2025-04-16 204839](https://github.com/user-attachments/assets/06920075-8b45-4be0-8070-f56df0ce830a)
+![Screenshot 2025-04-21 210104](https://github.com/user-attachments/assets/3745c6df-5949-4108-b35e-7390077612f2)
 
 ナヴィゲーションの「投稿作成」には、ユーザーが投稿を作ります。
 ![Screenshot 2025-04-16 205006](https://github.com/user-attachments/assets/6f274000-384c-4dc6-9a7e-36980fa446a6)
