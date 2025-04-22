@@ -28,19 +28,19 @@
                   </blockquote>           
                   <div class="text-center">
                     <div class="btn-group" role="group">
-                        <!-- View blog-->
+                        <!-- 投稿閲覧　-->
                             <form action="/view" method="post">
                                 <input type="hidden" name="blogIndex" value="<%= index %>">        
                                 <input type="submit" class="btn btn-primary me-1" value="View" />
                             </form>
                     
-                            <!-- Edit blog form-->
+                           <!-- 投稿編集　-->
                             <form action="/edit" method="post">
                                 <input type="hidden" name="blogIndex" value="<%= index %>">        
                                 <input type="submit" class="btn btn-primary me-1" value="Edit" />
                             </form>
                     
-                            <!-- Delete blog form -->
+                             <!-- 投稿消除 -->
                             <form action="/delete" method="post">
                                 <input type="hidden" name="blogIndex" value="<%= index %>">        
                                 <input type="submit" class="btn btn-primary" value="Delete" />
