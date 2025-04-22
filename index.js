@@ -8,20 +8,20 @@ const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Setting middleware
+// ミドルウェアの設定
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Automatically render any ejs file in the views folder
+// views フォルダー内のすべての EJS ファイルを自動的にレンダリングします。
 app.set('view engine', 'ejs');
 app.set('views', path.join(path.dirname(''), 'views'));
 
-// Store blog posts
+// 投稿を保存
 let posts = [];
 let editBlogIndex = null;
 
-// Routing pages
+// ルーティングページ
 app.get("/", (req, res) => {
     res.render("index.ejs", { posts: posts });
 });
@@ -45,14 +45,14 @@ app.post("/submit", (req, res) => {
     res.render("edit-blog.ejs", { posts: posts });
 })
 
-// View each post
+// 投稿を閲覧
 app.post("/view", (req,res) => {
     const blogIndex = req.body["blogIndex"];
     const post = posts[blogIndex]
     res.render("view-post.ejs", { post: post })
 })
 
-// Edit post
+// 投稿を編集
 app.post("/edit", (req, res) =>{
     editBlogIndex = req.body["blogIndex"];
     // console.log(`Editing blog at index: ${editBlogIndex}`);
@@ -71,7 +71,7 @@ app.post("/editBlog", (req, res) => {
     res.render("edit-blog.ejs", { posts: posts });
 })
 
-// Delete post
+// 投稿を消除
 app.post("/delete", (req, res) =>{
     const indexBlog = req.body["blogIndex"];
     posts.splice(indexBlog, 1);
