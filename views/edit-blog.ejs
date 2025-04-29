@@ -31,19 +31,19 @@
                         <!-- 投稿閲覧　-->
                             <form action="/view" method="post">
                                 <input type="hidden" name="blogIndex" value="<%= index %>">        
-                                <input type="submit" class="btn btn-primary me-1" value="View" />
+                                <input type="submit" class="btn btn-primary me-1" value="投稿閲覧" />
                             </form>
                     
-                           <!-- 投稿編集　-->
+                            <!-- 投稿編集　-->
                             <form action="/edit" method="post">
                                 <input type="hidden" name="blogIndex" value="<%= index %>">        
-                                <input type="submit" class="btn btn-primary me-1" value="Edit" />
+                                <input type="submit" class="btn btn-primary me-1" value="投稿編集" />
                             </form>
                     
-                             <!-- 投稿消除 -->
+                            <!-- 投稿消除 -->
                             <form action="/delete" method="post">
                                 <input type="hidden" name="blogIndex" value="<%= index %>">        
-                                <input type="submit" class="btn btn-primary" value="Delete" />
+                                <input type="submit" class="btn btn-primary" value="投稿削除" />
                             </form>
                         </div>
                   </div>
