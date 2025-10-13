@@ -29,9 +29,9 @@ Node.js と Express.js で作られたシンプルなブログウェブアプリ
 「投稿編集」は投稿の内容を直します。
 ![Screenshot 2025-04-16 205431](https://github.com/user-attachments/assets/94d468aa-59ef-4677-a419-ecbc5d936edb)
 
-### インストール
+### インストール方法
 
-このプロジェクトをローカルで実行するには、Node.js の依存関係と Express.js パッケージをダウンロードし、以下の手順に従ってインストールしてください。。<br/>
+このプロジェクトをローカルで実行するには、Node.js の依存関係と Express.js パッケージをダウンロードし、以下の手順に従ってインストールしてください。<br/>
 `git clone https://github.com/Baohoa1/Blog-Web-Application.git` <br/>
 `cd Blog-Web-Application` <br/>
 `npm install` <br/>
