@@ -30,11 +30,17 @@ Node.js と Express.js で作られたシンプルなブログウェブアプリ
 ![Screenshot 2025-04-16 205431](https://github.com/user-attachments/assets/94d468aa-59ef-4677-a419-ecbc5d936edb)
 
 ### インストール方法
-
+まず、Gitをインストールするのは必要になります。
 このプロジェクトをローカルで実行するには、Node.js の依存関係と Express.js パッケージをダウンロードし、以下の手順に従ってインストールしてください。<br/>
 `git clone https://github.com/Baohoa1/Blog-Web-Application.git` <br/>
 `cd Blog-Web-Application` <br/>
 `npm install` <br/>
-`npm install -g nodemon` <br/>
+`npm install -g nodemon`　<br/>
 
 インストール後に, `nodemon index.js` でコマンドプロンプトを起動して、ブラウザの「localhost:3000/」でプロジェクトを実行することになっております。
+このようなのエラーにあったら：
+![npm-command-disable_02](https://github.com/user-attachments/assets/7571caa8-f717-43e0-b69a-d55828a2007c)
+
+こんなように解決できます：
+https://a-m-t.co.jp/blog/npm-command-disable/
+
