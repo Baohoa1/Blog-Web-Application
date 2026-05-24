@@ -78,10 +78,10 @@
 ### インストール方法
 まず、Gitをインストールするのは必要になります。
 このプロジェクトをローカルで実行するには、Node.js の依存関係と Express.js パッケージをダウンロードし、以下の手順に従ってインストールしてください。<br/>
-`git clone https://github.com/Baohoa1/Blog-Web-Application.git` <br/>
-`cd Blog-Web-Application` <br/>
-`npm install` <br/>
-`npm install -g nodemon`　<br/>
+#### Step 1: `git clone https://github.com/Baohoa1/Blog-Web-Application.git` <br/>
+#### Step 2: `cd Blog-Web-Application` <br/>
+#### Step 3: `npm install` <br/>
+#### Step 4: `npm install -g nodemon`　<br/>
 
 インストール後に, `nodemon index.js` でコマンドプロンプトを起動して、ブラウザの「localhost:3000/」でプロジェクトを実行することになっております。
 このようなのエラーにあったら：
